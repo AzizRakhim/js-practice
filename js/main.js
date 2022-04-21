@@ -3,5 +3,5 @@ let newArr = [];
 text.split(" ").forEach(element => {
   newArr.push(element.split("").sort().reverse().join(""));
 });
-console.log(newArr.sort());
+console.log(newArr.sort().join(" "));
 
